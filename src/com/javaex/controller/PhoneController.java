@@ -81,8 +81,8 @@ public class PhoneController extends HttpServlet {
 			/*
 			리다이렉트
 			
-			저장완료후 빈화면 request 한 뒤 다시 response - response.sendRedirect("주소")
-			주소에 맞게 request
+			저장완료후 빈화면 response 한 뒤 다시 request 
+			주소에 맞게 response.sendRedirect("주소")
 			 
 			response.sendRedirect("/phonebook2/pbc?action=list");
 			*/
